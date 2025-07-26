@@ -26,7 +26,7 @@ public class StudentLoginServlet extends HttpServlet {
 	        String studentName = request.getParameter("studentName");
 	        String password = request.getParameter("password");
 
-	     
+	     System.out.println("Chenchu Login Servlet");
 	     Student s=new Student();
 	     s.setStduentname(studentName);
 	     s.setStudentPassword(password);
